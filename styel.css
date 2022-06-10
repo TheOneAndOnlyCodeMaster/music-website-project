@@ -1,0 +1,41 @@
+
+
+body{
+background-size: cover;
+font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.heading{
+font-size: 24px;
+top: 0;
+}
+.note{
+    font-size: 18px;
+}
+.songDiv{
+    width: 30%;
+    height: 50px;
+    font-size: 26px;
+}
+.webBoxShadow{
+    box-shadow: 0px 10px 15px darkslategray;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+canvas{
+    border: 6px outset whitesmoke;
+    animation-name: canvasbg;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvasbg{
+    0%{box-shadow: 1px 1px 40px darkblue;}
+    15%{box-shadow: 1px 1px 40px yellow;}
+    30%{box-shadow: 1px 1px 40px purple;}
+    50%{box-shadow: 1px 1px 40px cadetblue;}
+    65%{box-shadow: 1px 1px 40px darkblue;}
+    80%{box-shadow: 1px 1px 40px purple;}
+    95%{box-shadow: 1px 1px 40px yellow;}
+    100%{box-shadow: 1px 1px 40px cadetblue}
+}
