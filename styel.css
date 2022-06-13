@@ -28,6 +28,7 @@ canvas{
     animation-name: canvasbg;
     animation-duration:20s;
     animation-iteration-count: infinite;
+    border-radius: 15px ;
 }
 @keyframes canvasbg{
     0%{box-shadow: 1px 1px 40px darkblue;}
